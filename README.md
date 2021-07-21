@@ -23,3 +23,6 @@ Rewrite the code based on the feedback you provided in question 1. Please includ
 Aclaraciones
 Asumo que se quiere mantener la lógica de la aplicación para el ejercicio ya que existen librerías para el manejo de logs como log4j
 Para la prueba utilicé una BD H2 en fichero para que se pueda comprobar su funcionamiento
+
+
+Para correr la aplicación previamente configurar el archivo application.properties
