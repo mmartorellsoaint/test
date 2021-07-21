@@ -17,7 +17,7 @@ class DemoTest {
     LogRepository logRepository;
 
     @Test
-    void logMessage() throwsgit commit -m "first commit"git commit -m "first commit" Exception {
+    void logMessage() throws Exception {
         long count = logRepository.count();
         demo.LogMessage("test de log", true, true, true);
         assertEquals(logRepository.count(), count + 1);
